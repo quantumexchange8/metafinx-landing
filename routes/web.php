@@ -20,7 +20,7 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/', function () {
     return view('masters.overview');
-});
+})->name('home');
 
 Route::get('Overview', [HomeController::class, 'overview'])->name('overview');
 Route::get('IPO-Project', [HomeController::class, 'ipoproject'])->name('ipoproject');

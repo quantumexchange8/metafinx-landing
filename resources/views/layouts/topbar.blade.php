@@ -10,23 +10,23 @@
                     </li>
                 </div>
                 <div class="route-content">
-                    <li class="nav-border-items {{ Route::currentRouteName() === 'overview' ? 'active' : '' }}" style="{{ Route::currentRouteName() === 'overview' ? 'border-bottom: 2px solid var(--Pink, #FF2D55);' : '' }}">
-                        <a href="{{ route('overview') }}">
+                    <li class="nav-border-items {{ Route::is(['overview', 'home']) ? 'active' : '' }}" >
+                        <a class="cool-link" href="{{ route('overview') }}">
                             <span class="nav-wording" style="{{ Route::currentRouteName() === 'overview' ? 'color: var(--White, #FFF);' : '' }}">Overview</span>
                         </a>
                     </li>
-                    <li class="nav-border-items {{ Route::currentRouteName() === 'ipoproject' ? 'active' : '' }}" style="{{ Route::currentRouteName() === 'ipoproject' ? 'border-bottom: 2px solid var(--Pink, #FF2D55);' : '' }}">
-                        <a href="{{ route('ipoproject') }}">
+                    <li class="nav-border-items {{ Route::currentRouteName() === 'ipoproject' ? 'active' : '' }}">
+                        <a class="cool-link" href="{{ route('ipoproject') }}">
                             <span class="nav-wording" style="{{ Route::currentRouteName() === 'ipoproject' ? 'color: var(--White, #FFF);' : '' }}">IPO Project</span>
                         </a>
                     </li>
-                    <li class="nav-border-items {{ Route::currentRouteName() === 'iposcheme' ? 'active' : '' }}" style="{{ Route::currentRouteName() === 'iposcheme' ? 'border-bottom: 2px solid var(--Pink, #FF2D55);' : '' }}">
-                        <a href="{{ route('iposcheme') }}">
+                    <li class="nav-border-items {{ Route::currentRouteName() === 'iposcheme' ? 'active' : '' }}" >
+                        <a class="cool-link" href="{{ route('iposcheme') }}">
                             <span class="nav-wording" style="{{ Route::currentRouteName() === 'iposcheme' ? 'color: var(--White, #FFF);' : '' }}">IPO Scheme</span>
                         </a>
                     </li>
-                    <li class="nav-border-items {{ Route::currentRouteName() === 'aboutus' ? 'active' : '' }}" style="{{ Route::currentRouteName() === 'aboutus' ? 'border-bottom: 2px solid var(--Pink, #FF2D55);' : '' }}">
-                        <a href="{{ route('aboutus') }}">
+                    <li class="nav-border-items {{ Route::currentRouteName() === 'aboutus' ? 'active' : '' }}">
+                        <a class="cool-link" href="{{ route('aboutus') }}">
                             <span class="nav-wording" style="{{ Route::currentRouteName() === 'aboutus' ? 'color: var(--White, #FFF);' : '' }}">About Us</span>
                         </a>
                     </li>

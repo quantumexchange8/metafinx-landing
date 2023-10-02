@@ -229,7 +229,7 @@
 </div>
 
 <div class="bg-milestone">
-    <div class="main-content">
+    <div class="content-type-subsc">
         <div class="first-milestone">
             <div>
                 <p class="milestone-word">

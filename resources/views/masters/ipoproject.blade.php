@@ -20,7 +20,7 @@
 </div>
 
 <div class="bg-gray">
-    <div class="main-content">
+    <div class="content-type-subsc">
 
         <div class="project-3">
             <div style="display: flex;flex-direction:column;align-items: center;">
