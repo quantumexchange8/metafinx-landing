@@ -129,6 +129,10 @@
         </div>
     </div>
 
+    <div class="mobile-aboutus-4">
+        <img src="assets/images/aboutus/mobile_fbf.svg">
+    </div>
+
     <div class="aboutus-5">
         <div class="forex-content">
 
@@ -147,16 +151,16 @@
                 </p>
             </div>
 
-            <div style="display: flex;flex-direction:column;justify-content:flex-start">
+            <div class="strght-btm" style="display: flex;flex-direction:column;justify-content:flex-start">
                 <div>
                     <p class="ourstrength-word">
                         Our strengths :
                     </p>
                 </div>
-                <div style="display: flex;flex-direction:column;justify-content:flex-start">
+                <div style="display: flex;flex-direction:column;justify-content:flex-start;margin-left:20px">
                     <div style="display: flex;align-items:center;margin-bottom:15px">
                         <div style="margin-right: 12px">
-                            <img src="assets/images/aboutus/check.svg">
+                            <img src="assets/images/aboutus/check.svg" class="check">
                         </div>
                         <div>
                             <p class="strength-word">Established trust since 2022</p>
@@ -164,7 +168,7 @@
                     </div>
                     <div style="display: flex;align-items:center;margin-bottom:15px">
                         <div style="margin-right: 12px">
-                            <img src="assets/images/aboutus/check.svg">
+                            <img src="assets/images/aboutus/check.svg" class="check">
                         </div>
                         <div>
                             <p class="strength-word">Comprehensive trading platform</p>
@@ -172,7 +176,7 @@
                     </div>
                     <div style="display: flex;align-items:center;margin-bottom:15px">
                         <div style="margin-right: 12px">
-                            <img src="assets/images/aboutus/check.svg">
+                            <img src="assets/images/aboutus/check.svg" class="check">
                         </div>
                         <div>
                             <p class="strength-word">Tailored white-label solutions</p>
@@ -180,7 +184,7 @@
                     </div>
                     <div style="display: flex;align-items:center">
                         <div style="margin-right: 12px">
-                            <img src="assets/images/aboutus/check.svg">
+                            <img src="assets/images/aboutus/check.svg" class="check">
                         </div>
                         <div>
                             <p class="strength-word">Robust support and resources</p>
@@ -190,13 +194,13 @@
             </div>
         </div>
 
-        <div>
+        <div class="fbf1">
             <img src="assets/images/aboutus/fbf1.svg"> 
         </div>
     </div>
 
     <div class="aboutus-6">
-        <div>
+        <div class="chest">
             <img src="assets/images/aboutus/fsp.svg"> 
         </div>
 
@@ -215,7 +219,7 @@
                 </p>
             </div>
 
-            <div style="display: flex;flex-direction:column;justify-content:flex-start">
+            <div class="core-service-btm" style="display: flex;flex-direction:column;justify-content:flex-start">
                 <div>
                     <p class="ourstrength-word">
                         Our core services encompass :
@@ -223,7 +227,7 @@
                 </div>
                 <div style="display: flex;flex-direction:column;justify-content:flex-start">
                     <div style="display: flex;align-items: flex-start;margin-bottom:20px">
-                        <div style="margin-right: 12px;margin-left:16px">
+                        <div style="margin-right: 12px;margin-left:16px;display: flex;">
                             <img src="assets/images/aboutus/check.svg">
                         </div>
                         <div style="margin-right: 12px">
@@ -234,7 +238,7 @@
                         </div>
                     </div>
                     <div style="display: flex;align-items:flex-start;margin-bottom:20px">
-                        <div style="margin-right: 12px;margin-left:16px">
+                        <div style="margin-right: 12px;margin-left:16px;display: flex;">
                             <img src="assets/images/aboutus/check.svg">
                         </div>
                         <div style="margin-right: 12px">
@@ -245,7 +249,7 @@
                         </div>
                     </div>
                     <div style="display: flex;align-items:flex-start">
-                        <div style="margin-right: 12px;margin-left:16px">
+                        <div style="margin-right: 12px;margin-left:16px;display: flex;">
                             <img src="assets/images/aboutus/check.svg">
                         </div>
                         <div style="margin-right: 12px">
@@ -289,11 +293,11 @@
             <div style="display: flex;flex-direction:column;justify-content:flex-start">
                 <div>
                     <p class="ourstrength-word">
-                        Our core services encompass :
+                        Our strengths :
                     </p>
                 </div>
-                <div style="display: flex;justify-content:space-between">
-                    <div>
+                <div class="strgth3-align">
+                    <div style="margin-bottom: 15px;margin-left:20px">
                         <div style="display: flex;align-items:center;margin-bottom:15px">
                             <div style="margin-right: 12px">
                                 <img src="assets/images/aboutus/check.svg">
@@ -335,7 +339,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div style="margin-bottom: 15px;margin-left:20px">
                         <div style="display: flex;align-items:center;margin-bottom:15px">
                             <div style="margin-right: 12px">
                                 <img src="assets/images/aboutus/check.svg">
@@ -382,7 +386,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="typing-img">
             <img src="assets/images/aboutus/dae.svg"> 
         </div>
     </div>

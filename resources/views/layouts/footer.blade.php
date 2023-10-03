@@ -21,6 +21,8 @@
             </div>
          </div>
 
+         <div class="footer-line"></div>
+
          <div class="footer-row2">
             <div>
                 <p class="copyright">© METAFinX 2023. All rights reserved.</p>

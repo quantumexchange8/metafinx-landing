@@ -5,7 +5,7 @@
 <div class="main-content">
     <div class="scheme-1">
         <div class="scheme-row1">
-            <div style="display: flex;flex-direction:column">
+            <div class="scheme-col1-1">
                 <div>
                     <p class="scheme-word1">METAFINX Preferred Partner</p>
                 </div>
@@ -21,8 +21,8 @@
                 </div>
             </div>
 
-            <div>
-                <img src="assets/images/scheme/1.svg">
+            <div class="earn-img">
+                <img src="assets/images/scheme/1.svg" >
             </div>
         </div>
     </div>
@@ -30,11 +30,11 @@
     <div class="scheme-2">
         <div class="scheme-row2">
 
-            <div>
-                <img src="assets/images/scheme/3.svg">
+            <div class="ticket-img">
+                <img src="assets/images/scheme/3.svg" >
             </div>
 
-            <div style="display: flex;flex-direction:column">
+            <div class="scheme-col2-1">
                 <div>
                     <p class="scheme-word4">Special Ticket Reward</p>
                 </div>
@@ -56,45 +56,51 @@
                     </p>
                 </div>
 
-                <div style="display: flex;align-items: center;">
+                <div class="poolfund-flex">
                     <div style="margin-right: 12px">
                         <img src="assets/images/scheme/check.svg">
                     </div>
-                    <div>
-                        <p class="sample-word">Total Pool Funds</p>
-                    </div>
-                    <div>
-                        <p class="sample-word2">
-                            300,000 USDT
-                        </p>
+                    <div class="poolfund-flex2">
+                        <div>
+                            <p class="sample-word">Total Pool Funds</p>
+                        </div>
+                        <div>
+                            <p class="sample-word2">
+                                300,000 USDT
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <div style="display: flex;align-items: center;">
+                <div class="poolfund-flex">
                     <div style="margin-right: 12px">
                         <img src="assets/images/scheme/check.svg">
                     </div>
-                    <div>
-                        <p class="sample-word">Closing Date</p>
-                    </div>
-                    <div>
-                        <p class="sample-word2">
-                            20/09/2023 17:00 GMT+8
-                        </p>
+                    <div class="poolfund-flex2">
+                        <div>
+                            <p class="sample-word">Closing Date</p>
+                        </div>
+                        <div>
+                            <p class="sample-word2">
+                                20/09/2023 17:00 GMT+8
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <div style="display: flex;align-items: center;">
+                <div class="poolfund-flex">
                     <div style="margin-right: 12px">
                         <img src="assets/images/scheme/check.svg">
                     </div>
-                    <div>
-                        <p class="sample-word">Release Date</p>
-                    </div>
-                    <div>
-                        <p class="sample-word2">
-                            05/10/2023 17:00 GMT+8
-                        </p>
+                    <div class="poolfund-flex2">
+                        <div>
+                            <p class="sample-word">Release Date</p>
+                        </div>
+                        <div>
+                            <p class="sample-word2">
+                                05/10/2023 17:00 GMT+8
+                            </p>
+                        </div>
                     </div>
                 </div>
 

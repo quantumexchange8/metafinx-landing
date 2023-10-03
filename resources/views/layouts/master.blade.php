@@ -20,7 +20,7 @@
 
     </head>
 
-    <body class="light-mode dark-mode">
+    <body>
 
         <div class="container-scroller">
             
@@ -49,5 +49,27 @@
         </script>
         <link rel="stylesheet" href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css">
 
+        <script>
+           function toggleNav() {
+                var navMenu = document.getElementById('navMenu');
+                var navToggle = document.querySelector('.nav-toggle');
+                
+                // Check if the navMenu has the active class
+                if (navMenu.classList.contains('active')) {
+                    // If it has the active class, remove it to hide the menu
+                    navMenu.classList.remove('active');
+                } else {
+                    // If it doesn't have the active class, add it to show the menu
+                    navMenu.classList.add('active');
+                }
+            }
+
+            function toggleNav() {
+                var smallNav = document.querySelector('.small-nav');
+                smallNav.style.display = smallNav.style.display === 'none' ? 'block' : 'none';
+            }
+
+
+        </script>
     </body>
 </html>

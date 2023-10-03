@@ -4,13 +4,13 @@
 <div class="main-content">
 
     <div class="overview-1">
-        <div>
+        <div style="width: 100%;display: flex;justify-content: center;">
             <p class="smart-word">
                 Smart analytics to grow faster
             </p>
         </div>
         
-        <div style="width: 768px;margin-bottom:48px">
+        <div style="margin-bottom:48px;width: 100%;display: flex;justify-content: center;">
             <p class="secure-word">
                 Secure, user-friendly, and efficient platform for seamless digital asset 
                 transactions. Trusted by South East Asia users.
@@ -27,13 +27,16 @@
     </div>
 
     <div class="overview-2">
-        <div>
-            <img src="assets/images/overview/webview.svg">
+        <div class="metafix-crm">
+            <img src="assets/images/overview/webview.svg" class="webview-img">
         </div>
-        
+        <div class="metafix-crm">
+            <img src="assets/images/overview/Content.svg" class="content-img">
+        </div>
+
         <div class="type3">
             
-            <div style="display: flex; flex-direction:column;align-items: center;">
+            <div class="type3-content">
                 <div>
                     <img src="assets/images/overview/features.svg">
                 </div>

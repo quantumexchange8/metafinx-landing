@@ -49,3 +49,56 @@
         </div>
     </div>
 </div>
+
+
+<div class="mobile-topbar">
+    <div class="small-nav-img">
+        <img src="assets/images/logo3.svg" style="width: 200px">
+    </div>
+    <div class="small-nav-toggle" onclick="toggleNav()">
+        <img src="/assets/images/nav-icon.svg" style="width: 50px">
+    </div>
+</div>
+
+<div class="small-nav" style="display: none">
+    <nav class="nav2">
+        <ul>
+            <li class="smallnav-act {{ Request::is('overview') ? 'active' : ''}}" style="{{ Route::currentRouteName() === 'overview' ? 'border-bottom: 2px solid var(--Pink, #FF2D55);' : '' }}">
+                <a href="{{ route('overview') }}" style="{{ Request::is('overview') ? 'color: #BD00FF;' : '' }}">
+                    <span class="mobile-nav-wording" style="{{ Route::currentRouteName() === 'overview' ? 'color: var(--White, #FFF);' : '' }}">Overview</span>
+                </a>
+            </li>
+            <li class="smallnav-act {{ Request::is('ipoproject') ? 'active' : ''}}" style="{{ Route::currentRouteName() === 'ipoproject' ? 'border-bottom: 2px solid var(--Pink, #FF2D55);' : '' }}"><a href="{{ route('ipoproject') }}" style="{{ Request::is('ipoproject') ? 'color: #BD00FF;' : '' }}">
+                <span class="mobile-nav-wording" style="{{ Route::currentRouteName() === 'ipoproject' ? 'color: var(--White, #FFF);' : '' }}">IPO Project</span>
+            </a></li>
+            <li class="smallnav-act {{ Request::is('iposcheme') ? 'active' : ''}}" style="{{ Route::currentRouteName() === 'iposcheme' ? 'border-bottom: 2px solid var(--Pink, #FF2D55);' : '' }}"><a href="{{ route('iposcheme') }}" style="{{ Request::is('iposcheme') ? 'color: #BD00FF;' : '' }}">
+                <span class="mobile-nav-wording" style="{{ Route::currentRouteName() === 'iposcheme' ? 'color: var(--White, #FFF);' : '' }}">IPO Scheme</span>
+            </a></li>
+
+            <li class="smallnav-act {{ Request::is('aboutus') ? 'active' : ''}}" style="{{ Route::currentRouteName() === 'aboutus' ? 'border-bottom: 2px solid var(--Pink, #FF2D55);' : '' }}"><a href="{{ route('aboutus') }}" style="{{ Request::is('aboutus') ? 'color: #BD00FF;' : '' }}">
+                <span class="mobile-nav-wording" style="{{ Route::currentRouteName() === 'aboutus' ? 'color: var(--White, #FFF);' : '' }}">About Us</span>
+            </a></li>
+        </ul>
+
+        <div style="display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;">
+            <div>
+                <button class="mobile-signup-btn">
+                    <span>Sign Up</span>
+                </button>
+            </div>
+
+            <ul style="height: auto">
+                <li>
+                    <a href="#">
+                        <span class="mobile-nav-wording">Log In</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
