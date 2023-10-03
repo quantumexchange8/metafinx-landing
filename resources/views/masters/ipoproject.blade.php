@@ -70,7 +70,7 @@
             <div class="image-content">
     
             </div>
-            <div style="position: absolute; bottom: 140px; padding: 5px;">
+            <div style="position: absolute; bottom: 80px; padding: 5px;">
                 <p class="stockmate-word">Stock Mate Inc. (SMI)</p>
                 <br>
                 <p class="stockmate-word-small">
@@ -96,7 +96,7 @@
         <img src="assets/images/project/5.svg" style="max-width: 100%; height: auto;width: 100%;">
         <div class="content-inside-img">
             <div class="image-content2">
-                <div style="position: absolute; bottom: 120px; padding: 5px;">
+                <div style="position: absolute; bottom: 80px; padding: 5px;">
                     <p class="stockmate-word">Tera Tower Development Inc. (TTDI)</p>
                     <br>
                     <p class="stockmate-word-small">
@@ -127,7 +127,7 @@
             <div class="image-content">
     
             </div>
-            <div style="position: absolute; bottom: 120px; padding: 5px;">
+            <div style="position: absolute; bottom: 80px; padding: 5px;">
                 <p class="stockmate-word">Smart Optimal Trading Inc. (SOTI)</p>
                 <br>
                 <p class="stockmate-word-small">
