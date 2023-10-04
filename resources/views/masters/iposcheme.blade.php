@@ -141,7 +141,7 @@
         <div class="plan-3">
             
             <div class="container">
-                <div style="display:flex ;flex-direction:column;width: 320px;align-items: center;">
+                <div class="container-content">
                     <div class="basic-1">
                         <p>
                             7.2% p.a.
@@ -300,7 +300,7 @@
                 <div style="display: flex;flex-direction:column;align-items:center">
                     <div>
                         <button class="type-icon-btn">
-                            <img src="assets/images/scheme/coin.svg">
+                            <img src="assets/images/scheme/pie.svg">
                         </button>
                     </div>
                     <div>
@@ -318,7 +318,7 @@
                 <div style="display: flex;flex-direction:column;align-items:center">
                     <div>
                         <button class="type-icon-btn">
-                            <img src="assets/images/scheme/coin.svg">
+                            <img src="assets/images/scheme/ticket.svg">
                         </button>
                     </div>
                     <div>

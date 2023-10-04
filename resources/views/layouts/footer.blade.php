@@ -27,7 +27,7 @@
             <div>
                 <p class="copyright">© METAFinX 2023. All rights reserved.</p>
             </div>
-            <div style="display:flex;width:196px;justify-content: space-between;">
+            <div style="display:flex;width:303px;justify-content: space-between;">
                 <div>
                     <p class="tnc-word">
                         Terms
@@ -42,7 +42,12 @@
                     <p class="tnc-word">
                         Cookies
                     </p>
-                    
+                </div>
+                <div style="display: flex;justify-content:space-between;align-items: center;">
+                    <div><p class="language-word">English</p></div>
+                    <div>
+                        <i class="mdi mdi-menu-down"></i>
+                    </div>
                 </div>
             </div>
          </div>

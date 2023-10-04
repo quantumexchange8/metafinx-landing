@@ -32,7 +32,7 @@
                     </li>
                 </div>
                 <div class="sign-content">
-                    <li class="nav-border-log">
+                    <li class="nav-border-items">
                         <a href="#">
                             <span class="nav-wording">Login</span>
                         </a>
@@ -53,10 +53,10 @@
 
 <div class="mobile-topbar">
     <div class="small-nav-img">
-        <img src="assets/images/logo3.svg" style="width: 200px">
+        <img src="assets/images/logo3.svg">
     </div>
     <div class="small-nav-toggle" onclick="toggleNav()">
-        <img src="/assets/images/nav-icon.svg" style="width: 50px">
+        <img src="/assets/images/nav-icon.svg">
     </div>
 </div>
 

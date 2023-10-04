@@ -38,7 +38,7 @@
             
             <div class="type3-content">
                 <div>
-                    <img src="assets/images/overview/features.svg">
+                    <img src="assets/images/overview/features.svg" class="featureicon">
                 </div>
                 <div>
                     <p class="minimal-word">
@@ -54,9 +54,9 @@
                 </div>
             </div>
 
-            <div style="display: flex; flex-direction:column;align-items: center;">
+            <div class="type3-content">
                 <div>
-                    <img src="assets/images/overview/features2.svg">
+                    <img src="assets/images/overview/features2.svg" class="featureicon">
                 </div>
                 <div>
                     <p class="minimal-word">
@@ -70,9 +70,9 @@
                 </div>
             </div>
 
-            <div style="display: flex; flex-direction:column;align-items: center;">
+            <div class="type3-content">
                 <div>
-                    <img src="assets/images/overview/features3.svg">
+                    <img src="assets/images/overview/features3.svg" class="featureicon">
                 </div>
                 <div>
                     <p class="minimal-word">
@@ -94,7 +94,7 @@
     <div class="overview-line"></div>
 
     <div class="overview-3">
-        <div style="display:flex;justify-content:center">
+        <div class="finx-logo">
             <img src="assets/images/logo-2.svg">
         </div>
         <div>
@@ -104,8 +104,38 @@
         </div>
     </div>
 
+    {{-- <div class="overview-new">
+        <div class="container-new">
+            <div class="container-content-new">
+                <div class="pa-rate">7.2% p.a.</div>
+                <div class="pa-rate2">Basic</div>
+            </div>
+            <div class="container-content-new2">
+                <div class="container-new2-1">
+                    <img src="assets/images/overview/check.svg" style="margin-right: 12px">
+                    <p class="details-basic-word">Minimum investment is $ 1,000</p>
+                </div>
+                <div class="container-new2-1" >
+                    <img src="assets/images/overview/check.svg" style="margin-right: 12px">
+                    <p class="details-basic-word">ROI 7.2% per annum</p>
+                </div>
+                <div class="container-new2-1">
+                    <img src="assets/images/overview/check.svg" style="margin-right: 12px">
+                    <p class="details-basic-word">Quarterly dividend bonus</p>
+                </div>
+                <div class="container-new2-1">
+                    <img src="assets/images/overview/check.svg" style="margin-right: 12px">
+                    <p class="details-basic-word">Investment period 12 months</p>
+                </div>
+            </div>
+            <div class="container-content-new3">
+                <button class="get-started-btn-new"><span>Get Started</span></button>
+            </div>
+        </div>
+    </div> --}}
+
     <div class="overview-4">
-        <div class="plan-3">
+        {{-- <div class="plan-3"> --}}
             
             <div class="container">
                 <div style="display:flex ;flex-direction:column;width: 320px;align-items: center;">
@@ -227,7 +257,7 @@
                 </div>
             </div>
 
-        </div>
+        {{-- </div> --}}
     </div>
 </div>
 
