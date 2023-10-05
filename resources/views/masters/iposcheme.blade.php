@@ -38,7 +38,7 @@
                 <div>
                     <p class="scheme-word4">Special Ticket Reward</p>
                 </div>
-                <div style="margin-bottom:64px;">
+                <div class="special-ticket-margin">
                     <p class="scheme-word5">
                         The Special Ticket Reward involves the distribution of IPO PROJECT 
                         investment earnings to eligible members. The closing date, payment date, and 
@@ -138,10 +138,10 @@
     </div>
 
     <div class="overview-4">
-        <div class="plan-3">
+        {{-- <div class="plan-3"> --}}
             
             <div class="container">
-                <div class="container-content">
+                <div class="container-content-plan">
                     <div class="basic-1">
                         <p>
                             7.2% p.a.
@@ -260,7 +260,7 @@
                 </div>
             </div>
 
-        </div>
+        {{-- </div> --}}
         <div>
             <p class="each-sheme">
                 * 2 months of cooling period is applicable to each scheme.

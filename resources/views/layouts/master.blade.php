@@ -51,25 +51,69 @@
         <link rel="stylesheet" href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css">
 
         <script>
-           function toggleNav() {
-                var navMenu = document.getElementById('navMenu');
-                var navToggle = document.querySelector('.nav-toggle');
-                
-                // Check if the navMenu has the active class
-                if (navMenu.classList.contains('active')) {
-                    // If it has the active class, remove it to hide the menu
-                    navMenu.classList.remove('active');
-                } else {
-                    // If it doesn't have the active class, add it to show the menu
-                    navMenu.classList.add('active');
-                }
-            }
-
             function toggleNav() {
+                // var navMenu = document.getElementById('navMenu');
+                var navToggle = document.querySelector('.nav-toggle');
                 var smallNav = document.querySelector('.small-nav');
-                smallNav.style.display = smallNav.style.display === 'none' ? 'block' : 'none';
+
+                // Check if the smallNav is hidden or visible
+                if (smallNav.style.display === 'none' || smallNav.style.display === '') {
+                    smallNav.style.display = 'block'; // Show the smallNav
+                    // smallNav.style.height = '0px';
+
+                    // Trigger a reflow to apply the 'display' property change immediately
+                    // smallNav.offsetHeight;
+                    
+                    // Set the final height to the full height of the dropdown
+                    smallNav.style.height = '0px';
+
+                    setTimeout(function() {
+                        smallNav.style.transition = 'height 0.3s ease-in-out';
+                        smallNav.style.height = '368px';
+                    }, 0);
+                    
+                } else {
+                    // Set the initial height to the full height of the dropdown
+                        smallNav.style.height = '368px';
+
+                    // Add a transition for height
+                    smallNav.style.transition = 'height 0.3s ease-in-out';
+
+                    // Delay the transition to give time for the height change to take effect
+                    setTimeout(function() {
+                        smallNav.style.height = '0';
+                    }, 0);
+
+                    // After the transition is complete, hide the smallNav
+                    setTimeout(function() {
+                        smallNav.style.display = 'none';
+                    }, 300); // 300ms is the duration of the transition
+                }
+
+                // Check if the navMenu has the active class
+                // if (navMenu.classList.contains('active')) {
+                //     // If it has the active class, remove it to hide the menu
+                //     navMenu.classList.remove('active');
+                // } else {
+                //     // If it doesn't have the active class, add it to show the menu
+                //     navMenu.classList.add('active');
+                // }
             }
 
+            document.addEventListener('DOMContentLoaded', function () {
+                function closeSmallNav() {
+                    var smallNav = document.querySelector('.small-nav');
+                    if (smallNav.style.display === 'block') {
+                        smallNav.style.height = '0'; // Trigger the collapse animation
+                        setTimeout(function () {
+                            smallNav.style.display = 'none';
+                        }, 300); // 300ms is the duration of the transition
+                    }
+                }
+
+                // Add a scroll event listener to the window
+                window.addEventListener('scroll', closeSmallNav);
+            });
 
         </script>
     </body>

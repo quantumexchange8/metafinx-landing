@@ -52,9 +52,9 @@
 
 
 <div class="mobile-topbar">
-    <div class="small-nav-img">
+    {{-- <div class="small-nav-img"> --}}
         <img src="assets/images/logo3.svg">
-    </div>
+    {{-- </div> --}}
     <div class="small-nav-toggle" onclick="toggleNav()">
         <img src="/assets/images/nav-icon.svg">
     </div>
@@ -81,22 +81,23 @@
         </ul>
 
         <div style="display: flex;
-        justify-content: center;
+        padding: 0px 20px;
         flex-direction: column;
-        align-items: center;">
-            <div>
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+        width: 100%;
+        box-sizing: border-box;">
+            <div style="width: 100%;">
                 <button class="mobile-signup-btn">
                     <span>Sign Up</span>
                 </button>
             </div>
-
-            <ul style="height: auto">
-                <li>
-                    <a href="#">
+                <a href="#">
+                    <button class="btn-login">
                         <span class="mobile-nav-wording">Log In</span>
-                    </a>
-                </li>
-            </ul>
+                    </button>
+                </a>
         </div>
     </nav>
 </div>

@@ -30,7 +30,7 @@
         <div class="metafix-crm">
             <img src="assets/images/overview/webview.svg" class="webview-img">
         </div>
-        <div class="metafix-crm">
+        <div class="metafix-crm-mobile">
             <img src="assets/images/overview/Content.svg" class="content-img">
         </div>
 
@@ -138,7 +138,7 @@
         {{-- <div class="plan-3"> --}}
             
             <div class="container">
-                <div style="display:flex ;flex-direction:column;width: 320px;align-items: center;">
+                <div class="container-content-plan">
                     <div class="basic-1">
                         <p>
                             7.2% p.a.

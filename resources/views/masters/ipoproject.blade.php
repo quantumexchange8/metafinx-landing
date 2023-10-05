@@ -60,6 +60,44 @@
             </div>
         </div>
 
+        <div class="project-3-mobile">
+            <div style="display: flex;flex-direction:column;align-items: center;">
+                <div>
+                    <p class="latest-project">METAFINX's latest IPO projects</p>
+                </div>
+
+                <div style="display: flex;justify-content:space-between;width: 100%;">
+                    <div style="display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width:100%">
+                        <img src="assets/images/project/10.svg">
+                        <p class="stock-word">
+                            Stock Mate Inc. (SMI)
+                        </p>
+                    </div>
+                    <div style="display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width:100%">
+                        <img src="assets/images/project/11.svg">
+                        <p class="stock-word">
+                            Tera Tower Development Inc. (TTDI)
+                        </p>
+                    </div>
+                    <div style="display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        width:100%">
+                        <img src="assets/images/project/12.svg">
+                        <p class="stock-word">
+                            Smart Optimal Trading Inc. (SOTI)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 

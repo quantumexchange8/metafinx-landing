@@ -61,7 +61,7 @@
 
 <div class="content-type-subsc">
     <div class="abountus-3">
-        <div style="margin-bottom: 24px">
+        <div class="main-business-margin">
             <p class="main-business">
                 Main Business Division
             </p>
@@ -74,65 +74,113 @@
             </p>
         </div>
     </div>
+</div>
 
+<div class="content-type-subsc-fbf">
     <div class="aboutus-4">
         {{-- <img src="assets/images/aboutus/1.svg"> --}}
-        <div class="aboutus-image-content">
-            <div class="fbf-container">
-                <div>
-                    <p class="fbf-word-1">FBF</p>
+        {{-- <div class="content-type-subsc"> --}}
+            <div class="aboutus-image-content">
+                <div class="fbf-container">
+                    <div style="display: flex;align-items:center;flex-direction: column;">
+                        <p class="fbf-word-1">FBF</p>
+                        <p class="fbf-word-2">Forex Brokerage Firm</p>
+                    </div>
+                    <div>
+                        <p class="fbf-word-3">
+                            FBF offers comprehensive forex trading 
+                            platform and white-label solutions for 
+                            B2B partners to boost their brand with 
+                            tailored support and resources.
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <p class="fbf-word-2">Forex Brokerage Firm</p>
+                <div class="fsp-container">
+                    <div style="display: flex;align-items:center;flex-direction: column;">
+                        <p class="fbf-word-1">FSP</p>
+                        <p class="fbf-word-2">Financial Service Provider</p>
+                    </div>
+                    <div>
+                        <p class="fbf-word-3">
+                            FSP filters and audits investments for 
+                            safety and profitability while 
+                            connecting financial markets with 
+                            businesses.
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <p class="fbf-word-3">
-                        FBF offers comprehensive forex trading 
-                        platform and white-label solutions for 
-                        B2B partners to boost their brand with 
-                        tailored support and resources.
-                    </p>
+                <div class="dae-container">
+                    <div style="display: flex;align-items:center;flex-direction: column;">
+                        <p class="fbf-word-1">DAE</p>
+                        <p class="fbf-word-2">Digital Asset Exchange</p>
+                    </div>
+                    <div>
+                        <p class="fbf-word-3">
+                            DAE provides secure crypto platform 
+                            simplifies trading with ratings, 
+                            guidance, and analysis for maximum 
+                            profits in the dynamic market.
+                        </p>
+                    </div>
                 </div>
+                {{-- <div class="fbf-container">
+                    <div>
+                        <p class="fbf-word-1">FBF</p>
+                    </div>
+                    <div>
+                        <p class="fbf-word-2">Forex Brokerage Firm</p>
+                    </div>
+                    <div>
+                        <p class="fbf-word-3">
+                            FBF offers comprehensive forex trading 
+                            platform and white-label solutions for 
+                            B2B partners to boost their brand with 
+                            tailored support and resources.
+                        </p>
+                    </div>
+                </div>
+                <div class="fsp-container">
+                    <div>
+                        <p class="fbf-word-1">FSP</p>
+                    </div>
+                    <div>
+                        <p class="fbf-word-2">Financial Service Provider</p>
+                    </div>
+                    <div>
+                        <p class="fbf-word-3">
+                            FSP filters and audits investments for 
+                            safety and profitability while 
+                            connecting financial markets with 
+                            businesses.
+                        </p>
+                    </div>
+                </div>
+                <div class="dae-container">
+                    <div>
+                        <p class="fbf-word-1">DAE</p>
+                    </div>
+                    <div>
+                        <p class="fbf-word-2">Digital Asset Exchange</p>
+                    </div>
+                    <div>
+                        <p class="fbf-word-3">
+                            DAE provides secure crypto platform 
+                            simplifies trading with ratings, 
+                            guidance, and analysis for maximum 
+                            profits in the dynamic market.
+                        </p>
+                    </div>
+                </div> --}}
             </div>
-            <div class="fsp-container">
-                <div>
-                    <p class="fbf-word-1">FSP</p>
-                </div>
-                <div>
-                    <p class="fbf-word-2">Financial Service Provider</p>
-                </div>
-                <div>
-                    <p class="fbf-word-3">
-                        FSP filters and audits investments for 
-                        safety and profitability while 
-                        connecting financial markets with 
-                        businesses.
-                    </p>
-                </div>
-            </div>
-            <div class="dae-container">
-                <div>
-                    <p class="fbf-word-1">DAE</p>
-                </div>
-                <div>
-                    <p class="fbf-word-2">Digital Asset Exchange</p>
-                </div>
-                <div>
-                    <p class="fbf-word-3">
-                        DAE provides secure crypto platform 
-                        simplifies trading with ratings, 
-                        guidance, and analysis for maximum 
-                        profits in the dynamic market.
-                    </p>
-                </div>
-            </div>
-        </div>
+        {{-- </div> --}}
+        
     </div>
 
     <div class="mobile-aboutus-4">
         <img src="assets/images/aboutus/mobile_fbf.svg">
     </div>
-
+</div>
+<div class="content-type-subsc">
     <div class="aboutus-5">
         <div class="forex-content">
 
@@ -219,40 +267,40 @@
                 </p>
             </div>
 
-            <div class="core-service-btm" style="display: flex;flex-direction:column;justify-content:flex-start">
+            <div class="core-service-btm" style="display: flex;flex-direction:column;justify-content:flex-start;">
                 <div>
                     <p class="ourstrength-word">
                         Our core services encompass :
                     </p>
                 </div>
-                <div style="display: flex;flex-direction:column;justify-content:flex-start">
-                    <div style="display: flex;align-items: flex-start;margin-bottom:20px">
-                        <div style="margin-right: 12px;margin-left:16px;display: flex;">
+                <div style="display: flex;flex-direction:column;justify-content:flex-start;margin-left:16px">
+                    <div style="display: flex;align-items: flex-start;margin-bottom:20px;gap: 12px;">
+                        <div style="display: flex;">
                             <img src="assets/images/aboutus/check.svg">
                         </div>
-                        <div style="margin-right: 12px">
+                        <div>
                             <p class="investment1">Investment Portfolio Management</p>
                         </div>
                         <div>
                             <p class="investment-port-word">Optimizing diversification and performance to meet specific financial goals and risk profiles.</p>
                         </div>
                     </div>
-                    <div style="display: flex;align-items:flex-start;margin-bottom:20px">
-                        <div style="margin-right: 12px;margin-left:16px;display: flex;">
+                    <div style="display: flex;align-items:flex-start;margin-bottom:20px;gap: 12px;">
+                        <div style="display: flex;">
                             <img src="assets/images/aboutus/check.svg">
                         </div>
-                        <div style="margin-right: 12px">
-                            <p class="mna1">M&A Advisory</p>
+                        <div>
+                            <p class="investment1">M&A Advisory </p>
                         </div>
                         <div>
                             <p class="mna-word">Our expertise guides you through mergers and acquisitions for strategic growth.</p>
                         </div>
                     </div>
-                    <div style="display: flex;align-items:flex-start">
-                        <div style="margin-right: 12px;margin-left:16px;display: flex;">
+                    <div style="display: flex;align-items:flex-start;gap: 12px;">
+                        <div style="display: flex;">
                             <img src="assets/images/aboutus/check.svg">
                         </div>
-                        <div style="margin-right: 12px">
+                        <div>
                             <p class="smartai">Smart AI Independent Auditor</p>
                         </div>
                         <div>

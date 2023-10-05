@@ -6,7 +6,7 @@
                 <p class="get-notify">Get notified when we launch</p>
                 <p class="stayup">Stay up to date with the latest news, announcements, and articles.</p>
             </div>
-            <div style="display:flex;width:411px">
+            <div class="footer-email">
                 <div class="input-container">
                     <img class="email-icon" src="assets/images/email_icon.svg">
                     <input class="email-form" type="email" placeholder="Enter your email">
