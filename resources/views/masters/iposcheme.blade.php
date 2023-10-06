@@ -181,7 +181,7 @@
             </div>
 
             <div class="container">
-                <div style="display:flex ;flex-direction:column;width: 320px;align-items: center;">
+                <div class="container-content-plan">
                     <div class="basic-1">
                         <p>
                             10.8% p.a.
@@ -221,7 +221,7 @@
             </div>
 
             <div class="container">
-                <div style="display:flex ;flex-direction:column;width: 320px;align-items: center;">
+                <div class="container-content-plan">
                     <div class="basic-1">
                         <p>
                             14.4% p.a.

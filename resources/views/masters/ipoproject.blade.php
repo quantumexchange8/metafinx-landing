@@ -66,12 +66,12 @@
                     <p class="latest-project">METAFINX's latest IPO projects</p>
                 </div>
 
-                <div style="display: flex;justify-content:space-between;width: 100%;">
+                <div style="display: flex;justify-content:space-between;width: 100%;gap:20px">
                     <div style="display: flex;
                         flex-direction: column;
                         align-items: center;
                         width:100%">
-                        <img src="assets/images/project/10.svg">
+                        <img src="assets/images/project/new1.svg" style="width: 100%">
                         <p class="stock-word">
                             Stock Mate Inc. (SMI)
                         </p>
@@ -80,7 +80,7 @@
                         flex-direction: column;
                         align-items: center;
                         width:100%">
-                        <img src="assets/images/project/11.svg">
+                        <img src="assets/images/project/new2.svg" style="width: 100%">
                         <p class="stock-word">
                             Tera Tower Development Inc. (TTDI)
                         </p>
@@ -89,7 +89,7 @@
                         flex-direction: column;
                         align-items: center;
                         width:100%">
-                        <img src="assets/images/project/12.svg">
+                        <img src="assets/images/project/new3.svg" style="width: 100%">
                         <p class="stock-word">
                             Smart Optimal Trading Inc. (SOTI)
                         </p>
@@ -103,7 +103,7 @@
 
 <div class="web-view">
     <div style="position: relative;">
-        <img src="assets/images/project/4.svg" style="max-width: 100%; height: auto;width: 100%;">
+        <img src="assets/images/project/13.png" style="max-width: 100%; height: auto;width: 100%;">
         <div class="content-inside-img">
             {{-- <div class="image-content">
     
@@ -131,7 +131,7 @@
     </div>
     
     <div style="position: relative;">
-        <img src="assets/images/project/5.svg" style="max-width: 100%; height: auto;width: 100%;">
+        <img src="assets/images/project/14.png" style="max-width: 100%; height: auto;width: 100%;">
         <div class="content-inside-img">
             <div class="image-content2">
                 <div class="image-position2">
@@ -160,12 +160,12 @@
     </div>
     
     <div style="position: relative;">
-        <img src="assets/images/project/6.svg" style="max-width: 100%; height: auto;width: 100%;">
+        <img src="assets/images/project/15.png" style="max-width: 100%; height: auto;width: 100%;">
         <div class="content-inside-img">
             <div class="image-content">
     
             </div>
-            <div class="image-position">
+            <div class="image-position3">
                 <p class="stockmate-word">Smart Optimal Trading Inc. (SOTI)</p>
                 <br>
                 <p class="stockmate-word-small">

@@ -69,12 +69,12 @@
 
                     setTimeout(function() {
                         smallNav.style.transition = 'height 0.3s ease-in-out';
-                        smallNav.style.height = '368px';
+                        smallNav.style.height = '350px';
                     }, 0);
                     
                 } else {
                     // Set the initial height to the full height of the dropdown
-                        smallNav.style.height = '368px';
+                        smallNav.style.height = '350px';
 
                     // Add a transition for height
                     smallNav.style.transition = 'height 0.3s ease-in-out';

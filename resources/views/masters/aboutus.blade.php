@@ -205,7 +205,7 @@
                         Our strengths :
                     </p>
                 </div>
-                <div style="display: flex;flex-direction:column;justify-content:flex-start;margin-left:20px">
+                <div style="display: flex;flex-direction:column;justify-content:flex-start;margin-left:16px">
                     <div style="display: flex;align-items:center;margin-bottom:15px">
                         <div style="margin-right: 12px">
                             <img src="assets/images/aboutus/check.svg" class="check">
@@ -273,7 +273,7 @@
                         Our core services encompass :
                     </p>
                 </div>
-                <div style="display: flex;flex-direction:column;justify-content:flex-start;margin-left:16px">
+                <div class="cores-service-margin" style="display: flex;flex-direction:column;justify-content:flex-start;margin-left:16px">
                     <div style="display: flex;align-items: flex-start;margin-bottom:20px;gap: 12px;">
                         <div style="display: flex;">
                             <img src="assets/images/aboutus/check.svg">
@@ -345,7 +345,7 @@
                     </p>
                 </div>
                 <div class="strgth3-align">
-                    <div style="margin-bottom: 15px;margin-left:20px">
+                    <div style="margin-bottom: 15px;margin-left:16px">
                         <div style="display: flex;align-items:center;margin-bottom:15px">
                             <div style="margin-right: 12px">
                                 <img src="assets/images/aboutus/check.svg">

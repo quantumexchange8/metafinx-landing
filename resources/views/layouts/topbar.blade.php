@@ -63,11 +63,11 @@
 <div class="small-nav" style="display: none">
     <nav class="nav2">
         <ul>
-            <li class="smallnav-act {{ Request::is('overview') ? 'active' : ''}}" style="{{ Route::currentRouteName() === 'overview' ? 'border-bottom: 2px solid var(--Pink, #FF2D55);' : '' }}">
-                <a href="{{ route('overview') }}" style="{{ Request::is('overview') ? 'color: #BD00FF;' : '' }}">
-                    <span class="mobile-nav-wording" style="{{ Route::currentRouteName() === 'overview' ? 'color: var(--White, #FFF);' : '' }}">Overview</span>
+            <li class="smallnav-act {{ Request::is('/') || Request::is('Overview') ? 'active' : '' }}" style="{{ Request::is('/') || Request::is('Overview') ? 'border-bottom: 2px solid var(--Pink, #FF2D55);' : '' }}">
+                <a href="{{ route('overview') }}" style="{{ Request::is('/') || Request::is('Overview') ? 'color: #BD00FF;' : '' }}">
+                    <span class="mobile-nav-wording" style="{{ Request::is('/') || Request::is('Overview') ? 'color: var(--White, #FFF);' : '' }}">Overview</span>
                 </a>
-            </li>
+            </li>            
             <li class="smallnav-act {{ Request::is('ipoproject') ? 'active' : ''}}" style="{{ Route::currentRouteName() === 'ipoproject' ? 'border-bottom: 2px solid var(--Pink, #FF2D55);' : '' }}"><a href="{{ route('ipoproject') }}" style="{{ Request::is('ipoproject') ? 'color: #BD00FF;' : '' }}">
                 <span class="mobile-nav-wording" style="{{ Route::currentRouteName() === 'ipoproject' ? 'color: var(--White, #FFF);' : '' }}">IPO Project</span>
             </a></li>
@@ -87,7 +87,8 @@
         align-items: center;
         align-self: stretch;
         width: 100%;
-        box-sizing: border-box;">
+        box-sizing: border-box;
+        argin-bottom: 20px;">
             <div style="width: 100%;">
                 <button class="mobile-signup-btn">
                     <span>Sign Up</span>
