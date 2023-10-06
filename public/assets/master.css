@@ -2033,7 +2033,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 710px;
+        height: auto;
         justify-content: space-between;
         flex-wrap: wrap;
         gap: 12px;
@@ -2095,7 +2095,8 @@ body {
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
-        height: 150px;
+        height: auto;
+        gap: 10px;
     }
 
     .footer-row2 {
