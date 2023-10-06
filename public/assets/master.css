@@ -2929,12 +2929,17 @@ body {
 
     .email-form {
         display: flex;
-        padding: 13.5px 0px;
+        padding: 12px 14px;
         padding-left: 46px;
         align-items: center;
         gap: 12px;
         flex: 1 0 0;
-        width: auto;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .input-container {
+        margin-right: 0px;
     }
 
     .project-header {
@@ -3151,6 +3156,18 @@ body {
     .mobile-nav-wording {
         display: flex;
         text-align: center;
+    }
+
+    .mobile-subscription {
+        width: 100%;
+    }
+
+    .subscription {
+        width: 100%;
+    }
+
+    .input-container {
+        width: 100%;
     }
     /* content */
 

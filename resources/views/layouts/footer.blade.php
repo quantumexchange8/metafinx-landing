@@ -11,7 +11,7 @@
                     <img class="email-icon" src="assets/images/email_icon.svg">
                     <input class="email-form" type="email" placeholder="Enter your email">
                 </div>
-                <div>
+                <div class="mobile-subscription">
                     <button class="subscription">
                         <span>
                             Subscribe
