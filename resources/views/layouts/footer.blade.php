@@ -6,19 +6,22 @@
                 <p class="get-notify">Get notified when we launch</p>
                 <p class="stayup">Stay up to date with the latest news, announcements, and articles.</p>
             </div>
-            <div class="footer-email">
-                <div class="input-container">
-                    <img class="email-icon" src="assets/images/email_icon.svg">
-                    <input class="email-form" type="email" placeholder="Enter your email">
+            <form action="{{ route('subscription') }}" method="POST">
+                @csrf
+                <div class="footer-email">
+                    <div class="input-container">
+                        <img class="email-icon" src="assets/images/email_icon.svg">
+                        <input class="email-form" type="email" name="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mobile-subscription">
+                        <button type="submit" class="subscription">
+                            <span>
+                                Subscribe
+                            </span>
+                        </button>
+                    </div>
                 </div>
-                <div class="mobile-subscription">
-                    <button class="subscription">
-                        <span>
-                            Subscribe
-                        </span>
-                    </button>
-                </div>
-            </div>
+            </form>
          </div>
 
          <div class="footer-line"></div>

@@ -171,11 +171,13 @@
                         </div>
                     </div>
                     <div style="width: 100%;">
-                        <button class="get-started-btn">
-                            <span>
-                                Get Started
-                            </span>
-                        </button>
+                        <a href="https://login.metafinx.com/" style="text-decoration: none">
+                            <button class="get-started-btn">
+                                <span>
+                                    Get Started
+                                </span>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -211,11 +213,13 @@
                         </div>
                     </div>
                     <div style="width: 100%;">
-                        <button class="get-started-btn">
-                            <span>
-                                Get Started
-                            </span>
-                        </button>
+                        <a href="https://login.metafinx.com/" style="text-decoration: none">
+                            <button class="get-started-btn">
+                                <span>
+                                    Get Started
+                                </span>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -251,11 +255,13 @@
                         </div>
                     </div>
                     <div style="width: 100%;">
-                        <button class="get-started-btn">
-                            <span>
-                                Get Started
-                            </span>
-                        </button>
+                        <a href="https://login.metafinx.com/" style="text-decoration: none">
+                            <button class="get-started-btn">
+                                <span>
+                                    Get Started
+                                </span>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

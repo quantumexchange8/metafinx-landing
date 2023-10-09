@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\SubscriptionEmail;
 
 class HomeController extends Controller
 {
@@ -26,5 +27,24 @@ class HomeController extends Controller
     public function aboutus()
     {
         return view('masters.aboutus');
+    }
+
+    public function subscription(Request $request)
+    {
+
+        if($request->email != null)
+        {
+
+            $subscribe_email = SubscriptionEmail::create([
+                'email' => $request->email,
+            ]);
+
+            return redirect()->back();
+
+        } else {
+            return redirect()->back();
+        }
+
+        
     }
 }

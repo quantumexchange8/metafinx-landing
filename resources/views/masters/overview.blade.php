@@ -18,11 +18,13 @@
         </div>
 
         <div style="display: flex;justify-content:center;">
-            <button class="join-btn">
-                <spaN>
-                    Join METAFINX now
-                </spaN>
-            </button>
+            <a href="https://login.metafinx.com/register" style="text-decoration:none">
+                <button class="join-btn">
+                    <span>
+                        Join METAFINX now
+                    </span>
+                </button>
+            </a>
         </div>
     </div>
 
@@ -168,11 +170,13 @@
                         </div>
                     </div>
                     <div style="width: 100%;">
-                        <button class="get-started-btn">
-                            <span>
-                                Get Started
-                            </span>
-                        </button>
+                        <a href="https://login.metafinx.com/" style="text-decoration: none">
+                            <button class="get-started-btn">
+                                <span>
+                                    Get Started
+                                </span>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -208,11 +212,14 @@
                         </div>
                     </div>
                     <div style="width: 100%;">
-                        <button class="get-started-btn">
-                            <span>
-                                Get Started
-                            </span>
-                        </button>
+                        <a href="https://login.metafinx.com/" style="text-decoration: none">
+                            <button class="get-started-btn">
+                                <span>
+                                    Get Started
+                                </span>
+                            </button>
+                        </a>
+                        
                     </div>
                 </div>
             </div>
@@ -248,11 +255,13 @@
                         </div>
                     </div>
                     <div style="width: 100%;">
-                        <button class="get-started-btn">
-                            <span>
-                                Get Started
-                            </span>
-                        </button>
+                        <a href="https://login.metafinx.com/" style="text-decoration: none">
+                            <button class="get-started-btn">
+                                <span>
+                                    Get Started
+                                </span>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

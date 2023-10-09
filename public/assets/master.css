@@ -2180,7 +2180,7 @@ body {
 
     .mobile-signup-btn {
         display: flex;
-        padding: 12px 18px;
+        padding: 10px 16px;
         justify-content: center;
         align-items: center;
         gap: 8px;
