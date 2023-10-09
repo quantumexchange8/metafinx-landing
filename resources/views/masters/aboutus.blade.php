@@ -345,7 +345,7 @@
                     </p>
                 </div>
                 <div class="strgth3-align">
-                    <div style="margin-bottom: 15px;margin-left:16px">
+                    <div style="margin-bottom: 15px;">
                         <div style="display: flex;align-items:center;margin-bottom:15px">
                             <div style="margin-right: 12px">
                                 <img src="assets/images/aboutus/check.svg">
@@ -387,7 +387,7 @@
                             </div>
                         </div>
                     </div>
-                    <div style="margin-bottom: 15px;margin-left:20px">
+                    <div style="margin-bottom: 15px;">
                         <div style="display: flex;align-items:center;margin-bottom:15px">
                             <div style="margin-right: 12px">
                                 <img src="assets/images/aboutus/check.svg">
