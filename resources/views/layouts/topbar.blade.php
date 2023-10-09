@@ -33,12 +33,12 @@
                 </div>
                 <div class="sign-content">
                     <li class="nav-border-items">
-                        <a href="#">
+                        <a href="https://login.metafinx.com/">
                             <span class="nav-wording">Login</span>
                         </a>
                     </li>
                     <li class="nav-border-sign">
-                        <a href="#">
+                        <a href="https://login.metafinx.com/register">
                             <button class="sign-up-btn">
                                 <span>Sign Up</span>
                             </button>
