@@ -26,3 +26,5 @@ Route::get('Overview', [HomeController::class, 'overview'])->name('overview');
 Route::get('IPO-Project', [HomeController::class, 'ipoproject'])->name('ipoproject');
 Route::get('IPO-Scheme', [HomeController::class, 'iposcheme'])->name('iposcheme');
 Route::get('About-Us', [HomeController::class, 'aboutus'])->name('aboutus');
+
+Route::post('subscription', [HomeController::class, 'subscription'])->name('subscription');

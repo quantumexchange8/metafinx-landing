@@ -90,11 +90,15 @@
         box-sizing: border-box;
         argin-bottom: 20px;">
             <div style="width: 100%;">
+                
                 <button class="mobile-signup-btn">
-                    <span>Sign Up</span>
+                    <a href="https://login.metafinx.com/register">
+                        <span>Sign Up</span>
+                    </a>
                 </button>
+                 
             </div>
-                <a href="#">
+                <a href="https://login.metafinx.com/">
                     <button class="btn-login">
                         <span class="mobile-nav-wording">Log In</span>
                     </button>
