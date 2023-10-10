@@ -311,7 +311,7 @@
                     </div>
                     <div>
                         <p class="subscript-word">
-                            DIVIEND
+                            DIVIDEND
                         </p>
                     </div>
                     <div>
