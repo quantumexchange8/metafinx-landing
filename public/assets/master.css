@@ -848,6 +848,17 @@ body {
     padding: 5px;
 }
 
+.pa-word {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+}
+
 @media screen and (min-width: 1700px ) {
     .image-position {
         bottom: 100px;

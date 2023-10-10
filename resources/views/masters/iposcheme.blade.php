@@ -144,7 +144,7 @@
                 <div class="container-content-plan">
                     <div class="basic-1">
                         <p>
-                            7.2% p.a.
+                            7.2% <span class="pa-word">p.a.</span>
                         </p>
                     </div>
                     <div class="basic-2">
@@ -186,7 +186,7 @@
                 <div class="container-content-plan">
                     <div class="basic-1">
                         <p>
-                            10.8% p.a.
+                            10.8% <span class="pa-word">p.a.</span>
                         </p>
                     </div>
                     <div class="basic-2">
@@ -228,7 +228,7 @@
                 <div class="container-content-plan">
                     <div class="basic-1">
                         <p>
-                            14.4% p.a.
+                            14.4% <span class="pa-word">p.a.</span>
                         </p>
                     </div>
                     <div class="basic-2">
