@@ -279,8 +279,8 @@ body {
     outline: none;
     background: transparent;
     color: #FFF;
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 13.2px;
+    padding-bottom: 13.2px;
     padding-left: 53px;
 }
 
@@ -2932,7 +2932,7 @@ body {
 
     .email-form {
         display: flex;
-        padding: 12px 14px;
+        padding: 13.2px 14px;
         padding-left: 46px;
         align-items: center;
         gap: 12px;
