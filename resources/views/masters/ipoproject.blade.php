@@ -187,13 +187,13 @@
 </div>
 
 <div class="mobile-view">
-    <div class="mobile-stock">
+    <div class="mobile-stock" style="margin-bottom: -4px;">
         <img src="assets/images/project/9.svg">
     </div>
-    <div class="mobile-stock">
+    <div class="mobile-stock" style="margin-bottom: -4px;">
         <img src="assets/images/project/7.svg">
     </div>
-    <div class="mobile-stock">
+    <div class="mobile-stock" style="margin-bottom: -4px;">
         <img src="assets/images/project/8.svg">
     </div>
 </div>
